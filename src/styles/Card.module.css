@@ -1,0 +1,49 @@
+.container {
+    width: 280px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px ;
+    cursor: pointer;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+    &:hover {
+        transform: scale(110%);
+        transition: all ease-in-out 0.3s;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5); 
+        background-color: rgb(247, 247, 247);
+
+      }
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+
+.details {
+    padding: 5px
+}
+
+.profileButton{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.imgContainer {
+    width: 100px;
+    height: 100px;
+
+}
+img {
+    width: 80px;
+    
+}
+

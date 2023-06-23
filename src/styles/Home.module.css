@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 20px 15px;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-vector/white-abstract-background-3d-paper-style_23-2148390177.jpg?w=996&t=st=1685025090~exp=1685025690~hmac=5ec306a7bb7105289df5edeb90212258b79046f9ba1fb25b345736d69136c92a");
+    background-size: cover;
+}
