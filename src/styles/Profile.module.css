@@ -1,7 +1,7 @@
 .container {
     margin: 20px;
     box-shadow:1px 2px 2px rgba(0, 0, 0,0.5);
-    height: 75vh;
+    height: auto;
     border-radius: 10px;
     padding: 15px;
     background-image: url("https://img.freepik.com/free-vector/white-abstract-background-3d-paper-style_23-2148390177.jpg?w=996&t=st=1685025090~exp=1685025690~hmac=5ec306a7bb7105289df5edeb90212258b79046f9ba1fb25b345736d69136c92a");

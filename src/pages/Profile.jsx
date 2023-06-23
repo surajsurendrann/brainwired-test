@@ -30,7 +30,7 @@ const Profile = () => {
             </tr>
             <tr>
               <td>
-                <strong>Username</strong> :{" "}
+                <strong>Username</strong> :
               </td>
               <td>{user.username}</td>
             </tr>
