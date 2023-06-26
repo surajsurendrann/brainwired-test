@@ -2,7 +2,14 @@ import { Link } from "react-router-dom";
 import styles from "../styles/Card.module.css";
 import { useState } from "react";
 
-const Card = ({ user }) => {
+interface User {
+  id: number;
+  name: string;
+  username: string;
+  email: string;
+}
+
+const Card: React.FC<{ user: User }> = ({ user }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -31,19 +38,21 @@ const Card = ({ user }) => {
               />
             </div>
             <div className={styles.details}>
-              <table style={styles.table}>
-                <tr>
-                  <td> Name :</td>
-                  <td>{user.name}</td>
-                </tr>
-                <tr>
-                  <td> Username : </td>
-                  <td>{user.username}</td>
-                </tr>
-                <tr>
-                  <td>Email :</td>
-                  <td>{user.email}</td>
-                </tr>
+              <table className={styles.table}>
+                <tbody>
+                  <tr>
+                    <td> Name :</td>
+                    <td>{user.name}</td>
+                  </tr>
+                  <tr>
+                    <td> Username : </td>
+                    <td>{user.username}</td>
+                  </tr>
+                  <tr>
+                    <td>Email :</td>
+                    <td>{user.email}</td>
+                  </tr>
+                </tbody>
               </table>
             </div>
           </>

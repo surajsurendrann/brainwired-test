@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/Navbar.module.css";
 import { Link, useNavigate } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   const navigate = useNavigate();
 
   const handleNavigate = () => {

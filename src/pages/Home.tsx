@@ -3,7 +3,7 @@ import Card from "../components/Card";
 import styles from "../styles/Home.module.css";
 import { UserContext } from "../components/userContext";
 
-const Home = () => {
+const Home: React.FC = () => {
   const { users } = useContext(UserContext);
   return (
     <div className={styles.container}>
